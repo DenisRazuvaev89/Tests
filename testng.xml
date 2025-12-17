@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Test Suite" parallel="false">
+
+    <test name="Web Tests">
+        <classes>
+            <class name="tests.web.LoginTests"/>
+            <class name="tests.web.ProductsTests"/>
+            <class name="tests.web.CartTests"/>
+            <class name="tests.web.CheckoutTests"/>
+        </classes>
+    </test>
+
+    <test name="Mobile Tests">
+        <classes>
+            <class name="tests.mobile.SearchTests"/>
+            <class name="tests.mobile.ArticleTests"/>
+            <class name="tests.mobile.NavigationTests"/>
+        </classes>
+    </test>
+
+</suite>

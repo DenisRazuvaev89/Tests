@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Automation Test Suite" parallel="false">
+
+    <test name="Search Tests">
+        <classes>
+            <class name="tests.mobile.SearchTests"/>
+        </classes>
+    </test>
+
+    <test name="Article Tests">
+        <classes>
+            <class name="tests.mobile.ArticleTests"/>
+        </classes>
+    </test>
+
+    <test name="Navigation Tests">
+        <classes>
+            <class name="tests.mobile.NavigationTests"/>
+        </classes>
+    </test>
+
+</suite>
